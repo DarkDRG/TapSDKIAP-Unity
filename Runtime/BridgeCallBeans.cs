@@ -24,6 +24,11 @@ namespace TapSDK.IAP
         public int Code { get; set; }
         public string Message { get; set; }
         public List<TransactionInfo> Content { get; set; }
+
+        public override string ToString()
+        {
+            return $"{nameof(Code)}: {Code}, {nameof(Message)}: {Message}";
+        }
     }
 
     public class ProductDetail
