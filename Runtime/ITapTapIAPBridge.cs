@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace TapSDK.IAP
+﻿namespace TapSDK.IAP
 {
     public interface ITapTapIAPBridge
     {
